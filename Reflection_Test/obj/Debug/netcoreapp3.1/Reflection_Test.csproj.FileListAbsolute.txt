@@ -1,0 +1,14 @@
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\bin\Debug\netcoreapp3.1\Reflection_Test.exe
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\bin\Debug\netcoreapp3.1\Reflection_Test.deps.json
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\bin\Debug\netcoreapp3.1\Reflection_Test.runtimeconfig.json
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\bin\Debug\netcoreapp3.1\Reflection_Test.runtimeconfig.dev.json
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\bin\Debug\netcoreapp3.1\Reflection_Test.dll
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\bin\Debug\netcoreapp3.1\Reflection_Test.pdb
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\obj\Debug\netcoreapp3.1\Reflection_Test.csproj.AssemblyReference.cache
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\obj\Debug\netcoreapp3.1\Reflection_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\obj\Debug\netcoreapp3.1\Reflection_Test.AssemblyInfoInputs.cache
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\obj\Debug\netcoreapp3.1\Reflection_Test.AssemblyInfo.cs
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\obj\Debug\netcoreapp3.1\Reflection_Test.csproj.CoreCompileInputs.cache
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\obj\Debug\netcoreapp3.1\Reflection_Test.dll
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\obj\Debug\netcoreapp3.1\Reflection_Test.pdb
+C:\Users\ИМЕННО ОН\source\repos\Reflection_Test\Reflection_Test\obj\Debug\netcoreapp3.1\Reflection_Test.genruntimeconfig.cache
