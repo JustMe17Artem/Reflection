@@ -1,0 +1,13 @@
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\bin\Debug\netcoreapp3.1\ReflectionProject.exe
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\bin\Debug\netcoreapp3.1\ReflectionProject.deps.json
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\bin\Debug\netcoreapp3.1\ReflectionProject.runtimeconfig.json
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\bin\Debug\netcoreapp3.1\ReflectionProject.runtimeconfig.dev.json
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\bin\Debug\netcoreapp3.1\ReflectionProject.dll
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\bin\Debug\netcoreapp3.1\ReflectionProject.pdb
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\obj\Debug\netcoreapp3.1\ReflectionProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\obj\Debug\netcoreapp3.1\ReflectionProject.AssemblyInfoInputs.cache
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\obj\Debug\netcoreapp3.1\ReflectionProject.AssemblyInfo.cs
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\obj\Debug\netcoreapp3.1\ReflectionProject.csproj.CoreCompileInputs.cache
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\obj\Debug\netcoreapp3.1\ReflectionProject.dll
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\obj\Debug\netcoreapp3.1\ReflectionProject.pdb
+C:\Users\ИМЕННО ОН\source\repos\ReflectionProject\ReflectionProject\obj\Debug\netcoreapp3.1\ReflectionProject.genruntimeconfig.cache
