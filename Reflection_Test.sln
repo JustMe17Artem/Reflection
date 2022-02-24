@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_Test", "Reflection_Test\Reflection_Test.csproj", "{446A4EB2-2B62-4C54-9725-C3BFB3ECC393}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection_Test", "Reflection_Test\Reflection_Test.csproj", "{446A4EB2-2B62-4C54-9725-C3BFB3ECC393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{FA6A32F4-902D-4B1D-A3E9-2FB55796230C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{446A4EB2-2B62-4C54-9725-C3BFB3ECC393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{446A4EB2-2B62-4C54-9725-C3BFB3ECC393}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{446A4EB2-2B62-4C54-9725-C3BFB3ECC393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6A32F4-902D-4B1D-A3E9-2FB55796230C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6A32F4-902D-4B1D-A3E9-2FB55796230C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6A32F4-902D-4B1D-A3E9-2FB55796230C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6A32F4-902D-4B1D-A3E9-2FB55796230C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
