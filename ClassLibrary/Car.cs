@@ -9,6 +9,7 @@ namespace ClassLibrary
         public int Power { get; set; }
         public int HoldingPeriod { get; set; }
 
+
         public Car(string name, int speed, int power, int holdingPeriod)
         {
             Name = name;
