@@ -27,10 +27,11 @@ namespace ReflectionProject
             }
 
 
-            //bool car1IsValid = ValidateCar(car1);
-            //bool car2IsValid = ValidateCar(car2);
 
-            //    Console.WriteLine($"car {car1.Name} is valid: {car1IsValid}");
+            bool car1IsValid = ValidateCar(car);
+            //bool car2IsValid = ValidateCar(car2);
+            
+            //Console.WriteLine("car" + car.Name + "is valid:" + s );
             //    Console.WriteLine($"car {car2.Name} is valid: {car2IsValid}");
         }
         static bool ValidateCar(Car car)
