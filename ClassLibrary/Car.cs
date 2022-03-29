@@ -1,7 +1,11 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
+using System.Collections.Generic;
+using System.Text.Json;
+using System.IO;
+using System.Text.Unicode;
+using System.Text;
+using System.Text.Encodings.Web;
 
 namespace ClassLibrary
 {
@@ -21,26 +25,44 @@ namespace ClassLibrary
             return speed >= minSpeed && speed <= maxSpeed;
         }
     }
-    
+
     public class Car
     {
-        [BsonId]
-        [BsonIgnoreIfDefault]
-        public ObjectId _id;
         [Required]
         [StringLength(50, MinimumLength = 3)]
+        //[JsonPropertyName("Name")]
         public string Name { get; set; }
 
         [Required]
-        [Range(20, 400)]
+        [Range(50, 400)]
+        //[JsonPropertyName("MaxSpeed")]
         public int MaxSpeed { get; set; }
-
 
         public Car(string name, int speed)
         {
             Name = name;
             MaxSpeed = speed;
         }
+        public Car()
+        {
+
+        }
+        public static string jsonString = File.ReadAllText(@"C:\Users\ИМЕННО ОН\Desktop\Cars.json");
+        public static List<Car> cars { get; private set; } = JsonSerializer.Deserialize<List<Car>>(jsonString);
+
+        
+        public static void WriteToJson(Car car)
+        {
+            var options = new JsonSerializerOptions
+            {
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Cyrillic),
+                WriteIndented = true
+            };
+            cars.Add(car);
+            var json = JsonSerializer.Serialize(cars.ToArray(), options);
+            File.WriteAllText(@"C:\Users\ИМЕННО ОН\Desktop\Cars.json", json);
+        }
+        
         public void StartEngine()
         {
             Console.WriteLine("Вжух, двигатель заведён");
