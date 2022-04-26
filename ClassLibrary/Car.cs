@@ -47,8 +47,11 @@ namespace ClassLibrary
         {
 
         }
-        public static string jsonString = File.ReadAllText(@"C:\Users\ИМЕННО ОН\Desktop\Cars.json");
-        public static List<Car> cars { get; private set; } = JsonSerializer.Deserialize<List<Car>>(jsonString);
+
+        private static string jsonString = @"C:\Users\ИМЕННО ОН\Desktop\Cars.json";
+
+        public static string readString = File.ReadAllText(jsonString);
+        public static List<Car> cars { get; private set; } = JsonSerializer.Deserialize<List<Car>>(readString);
 
         
         public static void WriteToJson(Car car)
@@ -60,7 +63,7 @@ namespace ClassLibrary
             };
             cars.Add(car);
             var json = JsonSerializer.Serialize(cars.ToArray(), options);
-            File.WriteAllText(@"C:\Users\ИМЕННО ОН\Desktop\Cars.json", json);
+            File.WriteAllText(jsonString, json);
         }
         
         public void StartEngine()

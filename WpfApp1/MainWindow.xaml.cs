@@ -19,6 +19,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            Button.IsEnabled = false;
         }
 
         private void Name_TextChanged(object sender, TextChangedEventArgs e)
@@ -37,6 +38,7 @@ namespace WpfApp1
             else
             {
                 InvalidName.Text = "";
+                Button.IsEnabled = true;
             }
             
         }
@@ -59,6 +61,7 @@ namespace WpfApp1
                 else
                 {
                     InvalidSpeed.Text = "";
+                    Button.IsEnabled = true;
                 }
             }
             catch (FormatException)

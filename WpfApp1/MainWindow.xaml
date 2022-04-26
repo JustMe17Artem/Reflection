@@ -27,7 +27,7 @@
         <TextBox x:Name="Speed" Grid.Row="2" Width="140" Height="40" TextChanged="Speed_TextChanged"/>
         <TextBlock x:Name="InvalidName" Grid.Column="1" Width="600" FontSize="14" Height="30" Grid.ColumnSpan="5" Grid.RowSpan="3"/>
         <TextBlock x:Name="InvalidSpeed" Grid.Column="1" Grid.Row="1" Width="600" FontSize="14" Height="30" Grid.ColumnSpan="5" Grid.RowSpan="3"/>
-        <Button Click="Button_Click" />
+        <Button Click="Button_Click" x:Name="Button" />
         <TextBox Grid.Row="3" x:Name="SpeedCar"  Width="140" Grid.Column ="2"  Height="40" TextChanged="TextBox_TextChanged" />
         <TextBox Grid.Row="2" Grid.Column ="2" x:Name="NameCar"   Width="140" Height="40" TextChanged="NameCar_TextChanged" />
     </Grid>
